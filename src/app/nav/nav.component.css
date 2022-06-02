@@ -1,0 +1,46 @@
+
+ul {
+  background-color: white;
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  text-align: left;
+  box-shadow: 0 0px 4px 0 rgba(0,0,0,1);
+}
+
+ul #head {
+  background-color: white;
+  color: grey;
+  font-size: 40px;
+  margin-top: 40px;
+  height: 13%;
+  text-align: center;
+  font-weight: bold;
+}
+
+li a {
+  background-color: white;
+  color: black;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,1);
+}
+
+li a.active {
+  background-color: lightgrey;
+  color: black;
+  font-weight: bold;
+}
+
+li a:hover:not(.active) {
+  background-color: lightgrey;
+  color: black;
+}
+
