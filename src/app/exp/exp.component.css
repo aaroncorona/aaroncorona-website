@@ -1,0 +1,51 @@
+*{
+  margin-top:0%;
+  margin-right:0%;
+  margin-left: 23%;
+  max-width: 96%;
+}
+/* Avoid overlap with the navbar. Otherwise, fill the page by default*/
+
+/* Horizontal bar to head section */
+.exp-bar {
+  margin-top:0%;
+  margin-left:20%;
+  max-width: 100%;
+  padding: 30px;
+  font-size: 40px;
+  background-color: cadetblue;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-family: "Google Sans";
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* First Experience (Card) */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  border-radius: 5px; /* 5px rounded corners */
+  margin-top: 4%;
+}
+
+.card img {
+  /* Add shadows to create the "card" effect */
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  background-color: white;
+}

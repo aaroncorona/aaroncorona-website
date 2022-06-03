@@ -11,7 +11,6 @@
   display: flex;
   float: left;
   flex-direction: row;
-  flex-wrap: wrap;
   border: 3px solid darkgrey;
   margin-left:23%;
   max-width: 96%;
@@ -24,7 +23,7 @@
 .top-container img {
   margin-left:0%;
   margin-top:0%;
-  margin-left: 10px;
+  margin-left: 12px;
   width: 270px;
   height: 320px;
   border-radius: 20%;
@@ -58,12 +57,12 @@
   padding-left: 20px;
 }
 
-/*About me horizontal bar*/
-.about-me-bar {
+/* Horizontal bar to head section */
+.about-bar {
   margin-top:0%;
   margin-left:20%;
   max-width: 100%;
-  margin-top: 30%;
+  margin-top: 32%;
   padding: 30px;
   font-size: 40px;
   background-color: cadetblue;
@@ -72,6 +71,7 @@
   font-weight: lighter;
   font-family: "Google Sans";
   text-transform: uppercase;
+  font-style: italic;
 }
 
 /*About me paragraph*/
