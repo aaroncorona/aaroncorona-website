@@ -1,10 +1,11 @@
+
 /*Default Text colors*/
 *{
   background-color: transparent;
   color: black
 }
 
-/* Horizontal bar to head section */
+/* Horizontal bar to head the page */
 .exp-bar {
   margin-top:0%;
   margin-left:20%;
@@ -19,6 +20,7 @@
   text-transform: uppercase;
   font-style: italic;
 }
+
 
 /* First Experience (Card) */
 .card {

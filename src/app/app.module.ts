@@ -6,6 +6,7 @@ import { NavComponent } from "./nav/nav.component";
 import { AboutComponent } from './about/about.component';
 import { ExpComponent } from './exp/exp.component';
 import { EducationComponent } from './education/education.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { EducationComponent } from './education/education.component';
     NavComponent,
     AboutComponent,
     ExpComponent,
-    EducationComponent
+    EducationComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
