@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  public isActive:boolean = true;
+
   constructor() { }
 
   ngOnInit(): void {

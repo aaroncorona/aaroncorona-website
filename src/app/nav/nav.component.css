@@ -1,5 +1,5 @@
 
-ul {
+.nav {
   background-color: white;
   color: white;
   list-style-type: none;
@@ -13,7 +13,7 @@ ul {
   box-shadow: 0 0px 4px 0 rgba(0,0,0,1);
 }
 
-ul #head {
+.nav-title {
   background-color: white;
   color: darkgrey;
   font-size: 35px;
@@ -23,7 +23,7 @@ ul #head {
   font-weight: bold;
 }
 
-li a {
+.nav li a {
   background-color: white;
   color: black;
   display: block;
@@ -31,12 +31,6 @@ li a {
   text-decoration: none;
   font-family: Arial;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,1);
-}
-
-li a.active {
-  background-color: lightgrey;
-  color: black;
-  font-weight: bold;
 }
 
 li a:hover:not(.active) {
