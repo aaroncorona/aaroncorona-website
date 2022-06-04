@@ -1,0 +1,23 @@
+
+/*Default Text colors*/
+*{
+  background-color: transparent;
+  color: black
+}
+
+/* Horizontal bar to head the page */
+.exp-bar {
+  margin-top:0%;
+  margin-left:20%;
+  max-width: 100%;
+  padding: 30px;
+  font-size: 40px;
+  background-color: steelblue;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-family: "Google Sans";
+  text-transform: uppercase;
+  font-style: italic;
+}
+
