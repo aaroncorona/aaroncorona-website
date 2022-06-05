@@ -31,6 +31,8 @@
   margin-left: 26%;
   margin-right: 6%;
   margin-bottom: 5%;
+  /*Prevent over horizontal exansion that stretches images*/
+  max-width: 800px;
   height: 950px;
   /*border: 1px solid black*/
 }
@@ -42,7 +44,7 @@
   margin-left: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
-  width: 46%;
+  width: 45%;
   height: 45%;
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
