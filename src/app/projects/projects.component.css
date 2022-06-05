@@ -31,7 +31,7 @@
   margin-left: 26%;
   margin-right: 6%;
   margin-bottom: 5%;
-  height: 1000px;
+  height: 950px;
   /*border: 1px solid black*/
 }
 
@@ -42,7 +42,7 @@
   margin-left: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
-  width: 45%;
+  width: 46%;
   height: 45%;
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -59,7 +59,7 @@
   margin-right: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
-  width: 45%;
+  width: 46%;
   height: 45%;
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -71,7 +71,7 @@
 
 /* On mouse-over, add a deeper shadow */
 .project-card:hover {
-  box-shadow: 0 20px 30px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 10px 20px 0 cadetblue;
 }
 
 /* Remove link underline */
@@ -97,11 +97,12 @@
   flex-direction: column;
   align-content: start;
   background-color: transparent;
-  margin-top: 0%;
+  max-height: 65%;
+  margin-top: 2%;
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: auto;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
   /*border: 1px solid black;*/
 }
 
@@ -110,7 +111,7 @@
   flex-direction: column;
   align-content: end;
   height: 30%;
-  margin-top: auto;
+  margin-top: 6%;
   margin-left: 4%;
   margin-bottom: 4%;
   margin-right: 4%;
