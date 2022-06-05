@@ -1,12 +1,12 @@
 
 /*Default Text colors*/
-*{
+* {
   background-color: transparent;
   color: black
 }
 
 /* Horizontal bar to head the page */
-.exp-bar {
+.section-bar {
   margin-top:0%;
   margin-left:20%;
   max-width: 100%;
@@ -21,3 +21,70 @@
   font-style: italic;
 }
 
+/* Card Container */
+.card-container {
+  display: flex;
+  margin-top: 4%;
+  margin-left: 26%;
+  margin-right: 6%;
+  margin-bottom: 5%;
+  /*border: 1psx solid black*/
+}
+
+/* Skill Cards */
+.skill-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  width: 100%;
+  height: 100%;
+  /*border: 1px solid black*/
+}
+
+/* On mouse-over, add a deeper shadow */
+.skill-card:hover {
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+}
+
+/*Skill Header Container*/
+.skill-card-header-container {
+  display: flex;
+  background-color: transparent;
+  margin-top: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 0%;
+  border-bottom: 1px solid lightgrey;
+  /*border: 1px solid black*/
+}
+
+.skill-card-header-text-container {
+  height: 70px;
+  display: flex;
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 0%;
+  margin-bottom: 2%;
+  margin-right: 0%;
+  /*border: 1px solid black*/
+}
+
+.skill-card-header-text-title {
+  margin-left: 4%;
+  margin-bottom: 0%;
+  margin-top: 4%;
+  width: 100%;
+  height: 50%;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Menlo;
+  color: cadetblue;
+  text-align: center;
+  /*border: 1px solid black;*/
+}
