@@ -25,11 +25,11 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  margin-top: 4%;
+  margin-top: 0%;
   margin-left: 26%;
   margin-right: 6%;
-  margin-bottom: 5%;
-  /*border: 1psx solid black*/
+  margin-bottom: 15%;
+  /*border: 1px solid black*/
 }
 
 /* Skill Cards */
@@ -39,12 +39,10 @@
   transition: 0.3s;
   background-color: white;
   border-radius: 5px;
-  margin-top: 5%;
+  margin-top: 6%;
   margin-left: 0%;
   margin-right: 0%;
-  margin-bottom: 0%;
-  width: 100%;
-  height: 100%;
+  margin-bottom: 1%;
   /*border: 1px solid black*/
 }
 
@@ -66,7 +64,7 @@
 }
 
 .skill-card-header-text-container {
-  height: 70px;
+  height: auto;
   display: flex;
   width: 90%;
   margin-top: 2%;
@@ -77,15 +75,51 @@
 }
 
 .skill-card-header-text-title {
-  margin-left: 4%;
+  margin-left: 0%;
   margin-bottom: 0%;
-  margin-top: 4%;
+  margin-top: 0%;
+  margin-right: 0%;
   width: 100%;
-  height: 50%;
-  font-size: 28px;
+  height: 100%;
+  font-size: 23px;
   font-weight: bold;
-  font-family: Menlo;
-  color: cadetblue;
-  text-align: center;
+  font-family: "Apple Braille";
+  color: grey;
+  text-align: left;
   /*border: 1px solid black;*/
 }
+
+.skill-card-img-container {
+  height: auto;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-bottom: 2%;
+  margin-right: 6%;
+  gap: 8%;
+  /*border: 1px solid black*/
+}
+
+.skill-card-img-container img {
+  border-radius: 10%;
+  max-width: 21%;
+  height: 70px;
+  /*border: 1px solid black*/
+}
+
+/*Manual image fixes*/
+#frontend img {
+  border-radius: 10%;
+  max-width: 21%;
+  height: 45px;
+  /*border: 1px solid black*/
+}
+
+#frameworks img {
+  border-radius: 10%;
+  max-width: 21%;
+  height: 60px;
+  /*border: 1px solid black*/
+}
+
+
