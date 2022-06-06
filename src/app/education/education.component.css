@@ -26,9 +26,10 @@
 .card-container {
   display: flex;
   margin-top: 4%;
-  margin-left: 28%;
+  margin-left: 30%;
   margin-right: 9%;
   margin-bottom: 5%;
+  max-width: 800px;
   /*border: 1psx solid black*/
 }
 
@@ -75,6 +76,11 @@
   /*border: 1px solid black*/
 }
 
+.exp-card img {
+  border-radius: 50%;
+  /*border: 1px solid black;*/
+}
+
 .exp-card-header-text-container {
   height: 70px;
   display: flex;
@@ -101,7 +107,7 @@
 }
 
 .exp-card-header-text-time {
-  margin-top: 5.8%;
+  margin-top: 5.5%;
   margin-right: 1%;
   width: 50%;
   height: 50%;
@@ -116,15 +122,16 @@
 .exp-card-bullet-container {
   background-color: transparent;
   margin-top: 0%;
-  margin-left: 2%;
   margin-right: 2%;
   padding-bottom: 4%;
   /*border: 1px solid black;*/
 }
+
 .exp-card-bullet-container h3 {
-  font-family: "Apple Braille";
+  font-family: "Times New Roman";
   font-style: italic;
   text-align: center;
+  font-size: 20px;
   margin: 0%;
   margin-left: 0%;
   margin-top: 3%;
@@ -132,8 +139,3 @@
   /*border: 1px solid black;*/
 }
 
-
-.exp-card img {
-border-radius: 50%;
-  /*border: 1px solid black;*/
-}
