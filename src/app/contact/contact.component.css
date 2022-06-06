@@ -20,3 +20,33 @@
   text-transform: uppercase;
   font-style: italic;
 }
+
+/* Card Container */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-top: 4%;
+  margin-left: 50%;
+  margin-right: 0%;
+  /*border: 1px solid black*/
+}
+
+a {
+  align-content: center;
+  margin-bottom: 5%;
+  /*border: 1px solid black;*/
+}
+
+
+img {
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+img:hover {
+  box-shadow: 0 20px 20px 0 cadetblue;
+}
