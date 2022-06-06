@@ -8,7 +8,7 @@
 /* Horizontal bar to head the page */
 .section-bar {
   margin-top:0%;
-  margin-left:20%;
+  margin-left:18%;
   max-width: 100%;
   padding: 30px;
   font-size: 40px;
@@ -29,6 +29,8 @@
   margin-left: 26%;
   margin-right: 6%;
   margin-bottom: 15%;
+  min-width: 650px;
+  max-width: 800px;
   /*border: 1px solid black*/
 }
 

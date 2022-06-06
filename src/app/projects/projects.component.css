@@ -8,8 +8,7 @@
 /* Horizontal bar to head the page */
 .section-bar {
   margin-top:0%;
-  margin-left:20%;
-  max-width: 100%;
+  margin-left:18%;
   padding: 30px;
   font-size: 40px;
   background-color: steelblue;
@@ -32,6 +31,7 @@
   margin-right: 6%;
   margin-bottom: 5%;
   /*Prevent over horizontal exansion that stretches images*/
+  min-width: 700px;
   max-width: 800px;
   height: 950px;
   /*border: 1px solid black*/
