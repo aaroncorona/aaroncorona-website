@@ -3,7 +3,7 @@
 .page-container {
   display: flex;
   flex-direction: column;
-  margin-left:16%;
+  margin-left:10%;
   margin-right: 0%;
   margin-top: 0%;
   margin-bottom: 20%;
@@ -16,7 +16,7 @@
   float: left;
   flex-direction: row;
   border: 3px solid darkgrey;
-  margin-left: 11%;
+  margin-left: 15%;
   padding: 17px;
   background-color: #E3EDF6;
   min-width: 500px;
@@ -86,7 +86,7 @@
 
 /*About me paragraph*/
 .about-me-p {
-  margin-left:15%;
+  margin-left:18%;
   margin-right:5%;
   margin-top:0%;
   max-width: 96%;
