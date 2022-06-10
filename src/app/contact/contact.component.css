@@ -39,12 +39,15 @@ a {
   /*border: 1px solid black;*/
 }
 
-
 img {
   width: 30%;
   height: 30%;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+a #gmail {
+  height: 65px;
 }
 
 img:hover {
